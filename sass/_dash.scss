@@ -1,0 +1,84 @@
+
+.admin__panel{
+    display: flex;
+}
+body{
+    font-family: Poppins;
+    background-color: #F8F8F8;
+}
+a{
+    text-decoration: none;
+}
+.dash__board{
+    position: fixed;
+    height: 100vh;
+    max-width: 230px;
+    padding: 55px 23px 30px 0px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    .logo a{
+        color: #013CC6;
+        font-size: 24px;
+        font-weight: 500;
+        word-wrap: break-word;
+        margin-left: 29px;
+        transition: all 0.6s ease-out;
+        &:hover{
+            color: rgba(18, 18, 18, 0.5)
+        }
+    }
+    .logo{
+        height: 15%;
+    }
+    nav{
+        height: 85%;
+    }
+    ul{
+        list-style-type: none;
+        
+        a{
+            color: #131313;
+            font-size: 16px;
+            font-weight: 400;
+            letter-spacing: 0.32px;
+            word-wrap: break-word;
+            gap: 16px;
+            display: flex;
+            align-items: center;
+            margin-bottom: 41px;
+            padding-left: 41px;
+            &:hover{
+                svg{
+                    fill: #013CC6;
+                    stroke: white;
+                    stroke-width: 0px;
+                }
+                color: #013CC6;
+                border-left: #013CC6 1px solid;
+            }
+        }
+        li:last-child{
+            margin-bottom: 0px;
+        }
+    }
+}
+.dash__board__footer a{
+    margin-left: 41px;
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    color: #131313;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0.32px;
+    word-wrap: break-word;
+    &:hover{
+        svg{
+            fill: #013CC6;
+            stroke: white;
+            stroke-width: 0px;
+        }
+        color: #013CC6;
+    }
+}
